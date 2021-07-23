@@ -1,0 +1,10 @@
+server:
+  port: 8081
+info:
+  component: Payment Service
+spring:
+  application:
+    name: payment-service
+  sleuth:
+    sampler:
+      probability: 1.0
